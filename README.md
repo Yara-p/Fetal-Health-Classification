@@ -114,4 +114,4 @@ This project successfully demonstrated the application of machine learning model
 
 ## Documentation
 For a more detailed analysis and discussion, please refer to the project report:
-- [Project Report (PDF)](docs/Summary_Report.pdf)
+- [Summary Report (PDF)](Summary_Report.pdf)
