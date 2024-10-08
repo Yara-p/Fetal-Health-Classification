@@ -5,27 +5,13 @@ This project aims to classify fetal health using features extracted from Cardiot
 
 ## Table of Contents
 1. [Objectives](#objectives)
-2. [Data](#data)
-   - [Source](#source)
-   - [Description](#description)
-   - [Features](#features)
-   - [Target](#target)
+2. [Data Source and Description](#data)
 3. [Data Preparation](#data-preparation)
-   - [Preprocessing](#preprocessing)
-   - [Class Imbalance Handling](#class-imbalance-handling)
 4. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-   - [Visualization](#visualization)
-   - [Key Insights](#key-insights)
 5. [Machine Learning Models](#machine-learning-models)
-   - [Algorithms Implemented](#algorithms-implemented)
-   - [Best Performing Models](#best-performing-models)
 6. [Results](#results)
-   - [Performance Metrics](#performance-metrics)
-   - [Feature Importance](#feature-importance)
-7. [Future Work](#future-work)
-8. [Usage](#usage)
-9. [Conclusion](#conclusion)
-10. [Documentation](#documentation)
+7. [Usage](#usage)
+8. [Documentation](#documentation)
 
 ## Objectives
 - **Problem Objective**: Monitor fetal health using CTG data.
@@ -82,13 +68,8 @@ This project aims to classify fetal health using features extracted from Cardiot
 ### Performance Metrics
 - Classification reports and confusion matrices highlighted the strong performance of Random Forest and Gradient Boosting, especially in identifying "normal" and "pathological" cases.
 
-### Feature Importance
-- Features like accelerations, prolonged decelerations, and variability measures played crucial roles in prediction.
 
-## Future Work
-- **Deep Learning**: Explore more advanced deep learning models for automated feature extraction.
-- **Data Generalization**: Validate the model on data collected from different populations and settings.
-- **Model Interpretability**: Enhance interpretability to provide actionable insights for healthcare professionals.
+
 
 ## Usage
 To run the project:
@@ -109,9 +90,7 @@ To run the project:
     jupyter notebook Fetal_Health.ipynb
     ```
 
-## Conclusion
-This project successfully demonstrated the application of machine learning models to classify fetal health using CTG data. The **Random Forest** and **Gradient Boosting** models provided the most reliable predictions, showing significant promise in assisting healthcare professionals in early diagnosis and decision-making.
 
 ## Documentation
-For a more detailed analysis and discussion, please refer to the project report:
-- [Summary Report (PDF)](Summary_Report.pdf)
+For a more detailed analysis and discussion, please refer to the summary report:
+[Summary Report (PDF)](Summary_Report.pdf)
